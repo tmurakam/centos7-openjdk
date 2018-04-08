@@ -1,4 +1,4 @@
-TAG = tmurakam/centos7-openjdk:10
+TAG = tmurakam/centos7-openjdk:11-ea
 
 all: build
 
