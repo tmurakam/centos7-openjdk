@@ -11,4 +11,7 @@ rmi:
 bash:
 	docker run -it --rm ${TAG} /bin/bash
 
+push:
+	docker push ${TAG}:latest
+
 
