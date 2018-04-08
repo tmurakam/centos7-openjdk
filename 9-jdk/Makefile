@@ -1,4 +1,4 @@
-TAG = tmurakam/centos7-openjdk:8
+TAG = tmurakam/centos7-openjdk:9
 
 all: build
 
@@ -13,5 +13,3 @@ bash:
 
 push:
 	docker push ${TAG}:latest
-
-
